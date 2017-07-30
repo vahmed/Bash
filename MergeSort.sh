@@ -1,5 +1,5 @@
 #!/bin/bash
-# Name: MergeSort.sh
+# Name: MergeSort.sh 
 # Date: 28-Jul-2017
 # Description: Script concatnates Apache access logs and groups entries by IP and sorted by time
 # Sample input: 74.125.196.102- showtimeonline [22/Feb/2015:06:25:02 +0000] "GET /xxx/xxx HTTP/1.1" 200 41174 "file:///" "Mozilla/4.0 (compatible; NativeHost)"
