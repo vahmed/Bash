@@ -42,7 +42,7 @@ if [ $(curl -s -o /dev/null -I -w "%{http_code}" ${URL}${F}) == "200" ]
         rpm --nodeps -ivh ${F} | tee -a ${LOG}
         rpm -qi ${F%.*} | tee -a ${LOG}
 else
-        echo "ERROR: Could not find required software...Please notify Provision DevOPS about this!!!" | tee -a ${LOG}
+        echo "ERROR: Could not find required software...Please notify DevOPS about this!!!" | tee -a ${LOG}
         rpm -qa | tee -a ${LOG}
 fi
 done
